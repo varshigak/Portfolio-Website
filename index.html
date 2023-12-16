@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varshiga Kandeepan's Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        .navbar {
+            background-color: #121212;
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #ffffff;
+        }
+        .hero {
+            background-color: #222222;
+            padding: 100px 0;
+        }
+        .section-title {
+            color: #ffffff;
+        }
+        .bg-dark {
+            background-color: #333333;
+            padding: 50px 0;
+        }
+        .project-square {
+            background-color: #444;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .project-title {
+            color: #ffffff;
+            font-size: 24px;
+        }
+        .project-description {
+            color: #cccccc;
+            font-size: 16px;
+        }
+        .project-link {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .about-me {
+            background-color: #333333;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .about-me img {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        .contact-icon-container {
+            display: flex;
+            margin: 10px;
+        }
+        .contact-icon {
+            width: 50px; 
+            height: 50px; 
+            transition: transform 0.3s; 
+        }
+        .contact-icon:hover {
+            transform: scale(1.2); 
+        }
+        footer {
+            background-color: #121212;
+            color: #ffffff; 
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <span class="navbar-brand">Varshiga Kandeepan</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Software Developer</h1>
+            <p class="lead">Welcome to my portfolio</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-me">
+        <div class="container">
+            <h2 class="display-4 text-center section-title">About Me</h2>
+            <img src="https://sdk.bitmoji.com/render/panel/20082977-102615493286_3-s5-v1.png?transparent=1&palette=1&scale=2" alt="Varshiga's Bitmoji" class="img-fluid">
+            <p>
+                I am a Computer Science major (BSc Co-op) at the Toronto Metropolitan 
+                University. My education has equipped me with a solid foundation 
+                in software engineering, data structures, web development, 
+                and computer security, among other areas. 
+            </p>
+            <p>
+                I have a strong command over a wide range of programming 
+                languages including Python, Java, C#, and Visual Basic, and I am 
+                proficient in various tools and frameworks like ReactJS, Unity, 
+                and Git.
+            </p>
+            <p> 
+                Currently, I am working as a Software Developer at the Toronto 
+                Metropolitan University, where I am involved in creating a 
+                user-friendly video conferencing app and enhancing the hardware 
+                and software capabilities of a Raspberry Pi-based robot for 
+                neurodiverse students.
+            </p>
+            <p> 
+                Previously, I contributed to the development of a social media 
+                mobile app at HelpUsDefend.
+            </p>  
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-dark">
+        <div class="container">
+            <h2 class="display-4 text-center section-title">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-square">
+                        <h3 class="project-title">Bubble Sort Visualizer</h3>
+                        <p class="project-description">
+                            This visualizer features a Python script using the Matplotlib 
+                            library to visually explain the Bubble Sort algorithm. 
+                            Animated elements highlight comparisons, enhancing algorithm 
+                            understanding for educational purposes.
+                        </p>
+                        <a href="https://github.com/varshigak/Bubble-Sort-Visualizer" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-square">
+                        <h3 class="project-title">Monster Chase Game</h3>
+                        <p class="project-description">
+                            The Monster Chase Game, built using Unity and C#, 
+                            offers a dynamic and immersive gameplay experience. 
+                            It features realistic physics, responsive controls, 
+                            character animations, and challenging enemy behaviors.
+                        </p>
+                        <a href="https://github.com/varshigak/Monster-Chase-Game" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-square">
+                        <h3 class="project-title">Weather App</h3>
+                        <p class="project-description">
+                            Built using HTML, CSS, and JavaScript, this Weather App has a modern, 
+                            visually appealing look. It provides real-time weather data for cities 
+                            worldwide and seamlessly integrates the OpenWeatherMap API for 
+                            dynamic weather information display.
+                        </p>
+                        <a href="https://github.com/varshigak/Weather-App" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="display-4 text-center section-title">Contact Me</h2>
+            <div class="d-flex justify-content-center">
+                <div class="contact-icon-container">
+                    <a href="https://www.linkedin.com/in/varshiga-k/" target="_blank">
+                        <img src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png" alt="LinkedIn" class="contact-icon">
+                    </a>
+                </div>
+                
+                <div class="contact-icon-container">
+                    <a href="https://github.com/varshigak" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="contact-icon">
+                    </a>
+                </div>
+
+                <div class="contact-icon-container">
+                    <a href="mailto:varshigak@gmail.com">
+                        <img src="https://static.vecteezy.com/system/resources/previews/016/716/465/non_2x/gmail-icon-free-png.png" alt="Gmail" class="contact-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="py-3 text-center">
+        <p>Last Updated: December 15, 2023</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
